@@ -1,0 +1,11 @@
+{
+  "main": {},
+  "side_containers": {
+    "mongo": {
+      "image": "mongo",
+      "volumes": [
+        "./mongodata:/data/db"
+      ]
+    }
+  }
+}
